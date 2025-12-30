@@ -1,0 +1,5 @@
+numpy==2.4.0
+pygame==2.6.1
+tensorflow==2.20.0
+scikit-learn
+pillow
