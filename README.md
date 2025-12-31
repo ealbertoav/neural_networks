@@ -25,13 +25,13 @@ neural_networks/
 
 ### Python Dependencies
 
-| Package | Purpose |
-|---------|---------|
-| `tensorflow` | Deep learning framework (includes Keras) |
-| `numpy` | Numerical computing |
-| `scikit-learn` | Data splitting utilities |
-| `pygame` | Interactive GUI for digit recognition |
-| `Pillow` | Image processing for convolution |
+| Package        | Purpose                                  |
+|----------------|------------------------------------------|
+| `tensorflow`   | Deep learning framework (includes Keras) |
+| `numpy`        | Numerical computing                      |
+| `scikit-learn` | Data splitting utilities                 |
+| `pygame`       | Interactive GUI for digit recognition    |
+| `Pillow`       | Image processing for convolution         |
 
 ### System Requirements
 
@@ -138,15 +138,15 @@ python recognition.py model.keras
 
 ## Data Files
 
-| File | Description |
-|------|-------------|
+| File                      | Description                                                               |
+|---------------------------|---------------------------------------------------------------------------|
 | `banknotes/banknotes.csv` | Banknote authentication dataset (1,372 samples, 4 features + class label) |
-| `convolution/bridge.png` | Sample image for edge detection demonstration |
-| `digits/model.keras` | Trained CNN model (generated after running `handwriting.py`) |
+| `convolution/bridge.png`  | Sample image for edge detection demonstration                             |
+| `digits/model.keras`      | Trained CNN model (generated after running `handwriting.py`)              |
 
 ### MNIST Dataset
 
-The MNIST dataset is automatically downloaded by TensorFlow on first run of `handwriting.py`. It contains:
+TensorFlow automatically downloads the MNIST dataset on first run of `handwriting.py`. It contains:
 - 60,000 training images of handwritten digits
 - 10,000 test images
 - Each image is 28×28 pixels, grayscale
